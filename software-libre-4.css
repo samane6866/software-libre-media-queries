@@ -1,0 +1,62 @@
+@import url("mclibre-pie.css");
+
+/* Paginas web HTML y hojas de estilo CSS   */
+/* Bartolome Sintes Marco                   */
+/* https://www.mclibre.org                  */
+/*                                          */
+/* CSS ejercicio: Software libre 4          */
+/*                                          */
+/* 18 de enero de 2016                      */
+/*                                          */
+
+
+body {
+    margin: 0;
+    background-color: #E0E1EB;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    margin: 0;
+    background-color: #31334D;
+    color: white;
+}
+
+h2 {
+    background-color: #31334D;
+    color: white;
+    text-align: center;
+}
+
+article {
+    border-radius: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+article h1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 5px;
+    background-color: #2CAB32;
+    font-size: 150%;
+}
+
+p {
+    margin: 5px 5px;
+}
+
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 400%;
+    }
+
+    h2 {
+        margin: 0 10px;
+        font-size: 200%;
+    }
+
+    /* Aqui faltan estilos CSS */
+}
